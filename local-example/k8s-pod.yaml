@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: getting-started
+  name: skaffold-test
 spec:
   containers:
-  - name: getting-started
+  - name: skaffold-test
     image: dkhodakivsky/devpod-demo
