@@ -7,6 +7,7 @@ pipeline {
     APP_NAME = 'devpod-demo'
     CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
   }
+
   stages {
     stage('CI Build and push snapshot') {
       when {
